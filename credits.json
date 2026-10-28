@@ -3,7 +3,7 @@
     {
       "name" : "Fireside",
       "starter" : "fireside",
-      "url" : "https://github.com/RooCodeInc/lamp-starter-fireside"
+      "url" : "https://github.com/lampdotdev/fireside"
     }
   ],
   "upstream" : [
