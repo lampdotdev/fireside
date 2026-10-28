@@ -1,0 +1,7 @@
+{
+  "opens" : [
+    "pdf",
+    "public.image",
+    "txt"
+  ]
+}
