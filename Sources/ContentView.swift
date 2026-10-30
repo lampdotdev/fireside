@@ -67,6 +67,7 @@ struct ContentView: View {
                         ForEach(Array(filtered.enumerated()),id:\.element.id) { i,song in
                             Button { selection = song.id } label: { SongCard(song:song,number:i+1,missing:library.missing(song)) }
                                 .buttonStyle(.plain)
+                                .accessibilityLabel(song.title)
                                 .contextMenu { Button("Open Song") {selection = song.id}; Divider(); Button("Delete Song",role:.destructive) {deleting = song} }
                         }
                     }.padding(.top,4)
